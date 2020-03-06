@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pets Vote</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1 class="title">Голосуй за любимца</h1>
+
+	<div class="pictures">
+
+		<!-- Cats -->
+		<button type="button" class="pet cat">
+			<img src="images/cat.jpg" alt="cat">
+		</button>
+		<button type="button" class="pet plus catPlus">
+			<img src="images/catPlus.jpg" alt="cat voted">
+		</button>
+		<button type="button" class="pet minus catMinus">
+			<img src="images/catMinus.jpg" alt="cat unvoted">
+		</button>
+
+		<!-- Dogs -->
+		<button type="button" class="pet dog">
+			<img src="images/dog.jpg" alt="dog">
+		</button>
+		<button type="button" class="pet plus dogPlus">
+			<img src="images/dogPlus.jpg" alt="dog voted">
+		</button>
+		<button type="button" class="pet minus dogMinus">
+			<img src="images/dogMinus.jpg" alt="dog unvoted">
+		</button>
+
+		<!-- Parrots -->
+		<button type="button" class="pet parrot">
+			<img src="images/parrot.jpg" alt="parrot">
+		</button>
+		<button type="button" class="pet plus parrotPlus">
+			<img src="images/parrotPlus.jpg" alt="parrot voted">
+		</button>
+		<button type="button" class="pet minus parrotMinus">
+			<img src="images/parrotMinus.jpg" alt="parrot unvoted">
+		</button>
+
+	</div>
+
+	<div class="response">
+		<h1 id="response">Ваш голос учтён!</h1>
+		<h1 id="wrong">Что-то пошло не так...</h1>
+	</div>
+
+	<div class="buttons">
+		<a class="button-choice" href="index.html">На главную</a>
+		<a class="button-choice" href="result.html">Смотреть результаты</a>
+	</div>
+	
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/vote.js"></script>
+</body>
+</html>

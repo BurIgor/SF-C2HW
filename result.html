@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>PetVote results</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1>Результаты голосования</h1>
+
+	<div class="grid-wrapper">
+		<div class="zero"> </div>
+		<div class="animal">
+			<img src="images/cat.jpg" alt="cat">
+		</div>
+		<div class="result">
+			<div id="catResult"> </div>
+		</div>
+		<div class="zero"> </div>
+		<div class="animal">
+			<img src="images/dog.jpg" alt="dog">
+		</div>
+		<div class="result">
+			<div id="dogResult"></div>
+		</div>
+		<div class="zero"> </div>
+		<div class="animal">
+			<img src="images/parrot.jpg" alt="parrot">
+		</div>
+		<div class="result">
+			<div id="parrotResult">   </div>
+		</div>
+		<div class="zero"> </div>
+		
+		<div class="progress">
+			<div id="progressCats" class="progress-bar bg-success" role="progressbar" style="width: 33%">Cats</div>
+			<div id="progressDogs" class="progress-bar bg-warning" role="progressbar" style="width: 34%">Dogs</div>
+			<div id="progressParrots" class="progress-bar bg-danger" role="progressbar" style="width: 33%">Parrots</div>
+		</div>
+	</div>	
+
+	<div class="buttons">
+		<a class="button-choice" href="index.html">На главную</a>
+		<a class="button-choice" href="vote.html">Голосовать</a>
+	</div>
+
+	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./js/bootstrap.bundle.min.js"></script>
+	<script src="js/vote.js"></script>
+	<script src="js/result.js"></script>
+</body>
+</html>
